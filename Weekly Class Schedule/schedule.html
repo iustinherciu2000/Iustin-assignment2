@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Class Schedule</title>
+
+    <!--Create style for table-->
+    <style>
+        table{
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 1px;
+        }
+
+        th, td{
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Add hover and color #f9f9f9 for every table cell */
+        th:hover, td:hover{
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+<h1>Weekly Class Schedule</h1>
+<h4 style="text-align: center;">Class Schedule for Fall 2024</h4>
+
+<!--Create table-->
+<table>
+    <!--Row #1-->
+    <tr>
+        <th>Day</th>
+        <th>Time</th>
+        <th>Course Name</th>
+        <th>Instructor</th>
+        <th>Room Number</th>
+    </tr>
+
+    <!--Row #2-->
+    <tr>
+        <!--Use rowspan to stretch Monday over 2 rows-->
+        <td rowspan="2">Monday</td>
+        <td>3:00-4:50</td>
+        <td>Intro to Mobile Application Development Lab</td>
+        <td>Mingjing XU</td>
+        <td>BIOSCI Room 137</td>
+    </tr>
+    <tr>
+        <td>6:00-7:00</td>
+        <td>Software Security</td>
+        <td>Derek Fisher</td>
+        <td>Online Class</td>
+    </tr>
+
+    <!--Row #3   -->
+    <tr>
+        <!--Use rowspan to stretch Tuesday over 3 rows to add all 3 classes-->
+        <td rowspan="3">Tuesday</td>
+        <td>11:00-12:20</td>
+        <td>Client-Side Scripting for the Web Lecture</td>
+        <td>Mounika R. Hospet</td>
+        <td>Tuttleman Room 307AB</td>
+    </tr>
+    <tr>
+        <td>2:00-3:20</td>
+        <td>Intro to Mobile Application Development Lecture</td>
+        <td>Karl Morris</td>
+        <td>Tuttleman Room 402</td>
+    </tr>
+    <tr>
+        <td>3:30-5:10</td>
+        <td>Differential and Integral Calculus</td>
+        <td>Dumitru D. Rusu</td>
+        <td>Beury Hall Room 160</td>
+    </tr>
+
+    <!--Row #4-->
+    <tr>
+        <!--No classes Wednesday-->
+        <!--Stretch "No Classes" over 4 columns to show that I have the day off-->
+        <td>Wednesday</td>
+        <td colspan="4">No Classes</td>
+    </tr>
+
+    <!--Row #5-->
+    <tr>
+        <!--Tuesday and Thursday schedules are the same-->
+        <td rowspan="3">Thursday</td>
+        <td>11:00-12:20</td>
+        <td>Client-Side Scripting for the Web Lecture</td>
+        <td>Mounika R. Hospet</td>
+        <td>Tuttleman Room 307AB</td>
+    </tr>
+    <tr>
+        <td>2:00-3:20</td>
+        <td>Intro to Mobile Application Development Lecture</td>
+        <td>Karl Morris</td>
+        <td>Tuttleman Room 402</td>
+    </tr>
+    <tr>
+        <td>3:30-5:10</td>
+        <td>Differential and Integral Calculus</td>
+        <td>Dumitru D. Rusu</td>
+        <td>Beury Hall Room 160</td>
+    </tr>
+
+    <!--Row #6-->
+    <tr>
+        <!--Stretch Friday over 2 rows-->
+        <td rowspan="2">Friday</td>
+        <td>10:00-10:50</td>
+        <td>Introduction to Academics in Computer Science</td>
+        <td>Dominique Kliger</td>
+        <td>Beury Hall Room 160</td>
+    </tr>
+    <tr>
+        <td>1:00-2:50</td>
+        <td>Client-Side Scripting for the Web Lab</td>
+        <td>Liam(TA)</td>
+        <td>BIOSCI Room 137</td>
+    </tr>
+</table>
+
+<!--Add link at the bottom-->
+<h3>Information about the courses can be found
+    <a href="https://bulletin.temple.edu/undergraduate/courses/cis/" target="_blank">here</a>.
+</h3>
+</body>
+</html>

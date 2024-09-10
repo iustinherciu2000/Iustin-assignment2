@@ -1,0 +1,39 @@
+/* Style the HTML page */
+
+/* title */
+h1{
+    text-align: center;
+    color: #c0392b;
+}
+
+/* image */
+img{
+    width: 250px;
+    height: 250px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+h2{
+    display: inline-block;
+    border-bottom: 3px solid #2980b9;
+    padding-bottom: 5px;
+    color: #2980b9;
+    width: 100%;
+}
+
+ul, ol{
+    margin: 15px;
+    padding-left: 20px;
+}
